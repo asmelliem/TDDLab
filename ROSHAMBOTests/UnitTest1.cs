@@ -16,7 +16,7 @@ namespace ROSHAMBOTests
             var expected = "Rock beats Scissors";
 
             //Act
-            var actual = roShamBo.DetermineWinner(playerOne, playerTwo);
+            var actual = roShamBo.Play(playerOne, playerTwo);
 
             //Assert
             Assert.Equal(expected, actual);
@@ -32,7 +32,7 @@ namespace ROSHAMBOTests
             var expected = "Scissors beats Paper";
 
             //Act
-            var actual = roShamBo.DetermineWinner(playerOne, playerTwo);
+            var actual = roShamBo.Play(playerOne, playerTwo);
 
             //Assert
             Assert.Equal(expected, actual);
@@ -48,7 +48,7 @@ namespace ROSHAMBOTests
             var expected = "Paper beats Rock";
 
             //Act
-            var actual = roShamBo.DetermineWinner(playerOne, playerTwo);
+            var actual = roShamBo.Play(playerOne, playerTwo);
 
             //Assert
             Assert.Equal(expected, actual);
@@ -64,7 +64,7 @@ namespace ROSHAMBOTests
             var expected = "Both players played the same. It's a tie.";
 
             //Act
-            var actual = roShamBo.DetermineWinner(playerOne, playerTwo);
+            var actual = roShamBo.Play(playerOne, playerTwo);
 
             //Assert
             Assert.Equal(expected, actual);
