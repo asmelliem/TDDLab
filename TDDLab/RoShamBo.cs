@@ -13,9 +13,14 @@ namespace ROSHAMBO
             {
                 return "Rock beats Scissors";
             }
-            else
+            else if ((playerOne == "Scissors" && playerTwo == "Paper") ||
+                playerTwo == "Paper" && playerOne == "Scissors")
             {
                 return "Scissors beats Paper";
+            }
+            else
+            {
+                return "Paper beats Rock";
             }
             
         }

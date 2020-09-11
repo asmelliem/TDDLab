@@ -37,5 +37,21 @@ namespace ROSHAMBOTests
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void PaperBeatsRockTest()
+        {
+            //Arrange
+            RoShamBo roShamBo = new RoShamBo();
+            var playerOne = "Paper";
+            var playerTwo = "Rock";
+            var expected = "Paper beats Rock";
+
+            //Act
+            var actual = roShamBo.DetermineWinner(playerOne, playerTwo);
+
+            //Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
