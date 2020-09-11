@@ -8,7 +8,16 @@ namespace ROSHAMBO
     {
         public string DetermineWinner(string playerOne, string playerTwo)
         {
-            return "Rock beats Scissors";
+            if((playerOne == "Rock" && playerTwo == "Scissors") || 
+                playerTwo == "Rock" && playerOne == "Scissors")
+            {
+                return "Rock beats Scissors";
+            }
+            else
+            {
+                return "Scissors beats Paper";
+            }
+            
         }
     }
 }
