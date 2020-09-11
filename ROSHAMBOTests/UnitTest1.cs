@@ -55,7 +55,7 @@ namespace ROSHAMBOTests
         }
 
         [Fact]
-        public void BothPlayersAreTheSameTest()
+        public void ReturnsATieTest()
         {
             //Arrange
             RoShamBo roShamBo = new RoShamBo();
