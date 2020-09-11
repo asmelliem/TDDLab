@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDLab", "TDDLab\TDDLab.csproj", "{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {749B50C4-1AA1-451F-A4A4-4E6CEEA3EE9A}
+	EndGlobalSection
+EndGlobal
