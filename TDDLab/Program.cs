@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TDDLab
+namespace ROSHAMBO
 {
     class Program
     {

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDLab", "TDDLab\TDDLab.csproj", "{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROSHAMBO", "TDDLab\ROSHAMBO.csproj", "{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROSHAMBOTests", "ROSHAMBOTests\ROSHAMBOTests.csproj", "{15A9C856-F2DD-450F-B1A5-44E86CF64E0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AAD6E5B-0BD3-47E1-8139-44B9379A8ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A9C856-F2DD-450F-B1A5-44E86CF64E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A9C856-F2DD-450F-B1A5-44E86CF64E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A9C856-F2DD-450F-B1A5-44E86CF64E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A9C856-F2DD-450F-B1A5-44E86CF64E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
