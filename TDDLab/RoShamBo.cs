@@ -18,11 +18,15 @@ namespace ROSHAMBO
             {
                 return "Scissors beats Paper";
             }
-            else
+            else if ((playerOne == "Paper" && playerTwo == "Rock") ||
+               playerTwo == "Rock" && playerOne == "Paper")
             {
                 return "Paper beats Rock";
             }
-            
+            else
+            {
+                return "Both players played the same. It's a tie.";
+            }            
         }
     }
 }

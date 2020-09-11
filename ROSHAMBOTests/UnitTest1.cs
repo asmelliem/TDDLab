@@ -53,5 +53,21 @@ namespace ROSHAMBOTests
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void BothPlayersAreTheSameTest()
+        {
+            //Arrange
+            RoShamBo roShamBo = new RoShamBo();
+            var playerOne = "Paper";
+            var playerTwo = "Paper";
+            var expected = "Both players played the same. It's a tie.";
+
+            //Act
+            var actual = roShamBo.DetermineWinner(playerOne, playerTwo);
+
+            //Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
